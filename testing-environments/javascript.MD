@@ -6,10 +6,10 @@ The following process will be done from the command line.
 
 1. In this step, we create a base directory for our project.
 
-```mkdir my_directory_name```
+    ```mkdir my_directory_name```
 
 2. In this step, we create a `src` and `test` sub-directory inside of our base directory. The `src` sub-directory will hold our application code. The `test` sub-directory will hold the tests for our application code.
 
-```mkdir my_directory_name/src```
+    ```mkdir my_directory_name/src```
 
-```mkdir my_directory_name/test```
+    ```mkdir my_directory_name/test```
