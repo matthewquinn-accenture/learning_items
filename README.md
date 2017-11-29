@@ -1,2 +1,2 @@
-# learning_items
-A repository of random things I'm learning
+# Learning Items
+A repository of random things I'm learning or teaching
