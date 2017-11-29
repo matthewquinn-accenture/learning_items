@@ -4,11 +4,12 @@ The following is **one** of many ways to set up a JavaScript testing environment
 
 The following process will be done from the command line.
 
-1. ```mkdir my_directory_name```
+1. In this step, we create a base directory for our project.
 
-In this step, we create a base directory for our project.
+```mkdir my_directory_name```
 
-2.1 ```mkdir my_directory_name/src```
-2.2 ```mkdir my_directory_name/test```
+2. In this step, we create a `src` and `test` sub-directory inside of our base directory. The `src` sub-directory will hold our application code. The `test` sub-directory will hold the tests for our application code.
 
-In this step, we create a `src` and `test` sub-directory inside of our base directory. The `src` sub-directory will hold our application code. The `test` sub-directory will hold the tests for our application code.
+```mkdir my_directory_name/src```
+
+```mkdir my_directory_name/test```
