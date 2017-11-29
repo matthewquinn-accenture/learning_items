@@ -4,12 +4,36 @@ The following is **one** of many ways to set up a JavaScript testing environment
 
 The following process will be done from the command line.
 
-1. In this step, we create a base directory for our project.
+1. Create a base directory for our project.
 
     ```mkdir my_directory_name```
 
-2. In this step, we create a `src` and `test` sub-directory inside of our base directory. The `src` sub-directory will hold our application code. The `test` sub-directory will hold the tests for our application code.
+2. Create a `src` and `test` sub-directory inside of our base directory. The `src` sub-directory will hold our application code. The `test` sub-directory will hold the tests for our application code.
 
     ```mkdir my_directory_name/src```
 
     ```mkdir my_directory_name/test```
+
+3. Create a `.babelrc` file inside of the base directory that contains the presets which allow us to utilize es6.
+
+    ```code my_directory_name/.babelrc```
+
+4. Create an `index.js` and `test.js` file inside of the respective sub-directory. The `index.js` file is where application code is written. The `test.js` is where the test code is written.
+
+    ```code my_directory_name/src/index.js```
+
+    ```code my_directory_name/test/test.js```
+
+5. Enter the base directory
+
+    ```cd my_directory_name```
+
+6. Initialize your package manager so that you can install the necessary packages needed for es6 syntax and testing. **NOTE** You will be promted with a series of environmental confirmations. Just hit `enter` until complete.
+
+    ```npm init```
+
+7. Initialize your testing libraries.
+
+    ```npm install mocha chai``` 
+
+8.
