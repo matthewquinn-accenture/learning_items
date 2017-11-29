@@ -32,8 +32,14 @@ The following process will be done from the command line.
 
     ```npm init```
 
-7. Initialize your testing libraries.
+7. Install the testing libraries.
 
     ```npm install mocha chai``` 
 
-8.
+8. Install the babel packages.
+
+    ```npm install babel-cli babel-core babel-polyfill babel-preset-es2015 babel-register```
+
+9. Install yarn
+
+   ```yarn install```
