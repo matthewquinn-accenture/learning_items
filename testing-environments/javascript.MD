@@ -13,9 +13,9 @@ b. The latest version of `npm` is installed
 c. The latest version of `yarn` is installed
 
 
-**Each step will be completed from the commmand line**
+***Each step will be completed from the commmand line***
 
-## Steps
+## Steps to setup a JavaScript testing environment
 
 1. Create a base directory for the project:
 
@@ -55,7 +55,7 @@ c. The latest version of `yarn` is installed
 
 9. Initialize npm to manage project dependencies and settings:
 
-   **NOTE** A promt will appear, hit `enter` until complete:
+    ***NOTE*** A promt will appear, hit `enter` until complete:
 
     `npm init`
 
@@ -91,13 +91,13 @@ c. The latest version of `yarn` is installed
 	 },
     ```
 
-14. Save the file and return to the command line.
+15. Save the file and return to the command line.
 
-15. Open the `test.js` file:
+16. Open the `test.js` file:
 
     `code test/test.js`
 
-13. In the `test.js` file, import the Mocha and chai libraries for unit testing:
+17. In the `test.js` file, import the Mocha and chai libraries for unit testing:
 
     ```
         import Mocha from 'mocha'
@@ -105,7 +105,7 @@ c. The latest version of `yarn` is installed
         import { chai } from 'chai'
     ```
 
-14. In the same file, write a canary test:
+18. In the same file, write a canary test:
 
     ```
     describe("Canary Test", () => {
@@ -113,3 +113,9 @@ c. The latest version of `yarn` is installed
             expect(true).to.equal(true);
         })
     ```
+
+19. Save the file and return to the command line.
+
+20. Run the test:
+
+    ```npm test```
