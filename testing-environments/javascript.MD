@@ -51,12 +51,15 @@ The following process will be done from the command line.
 11. Type in the presets to configure es6 syntax
 
     ```{
+
         "presets": ["es2015"]
+
                 }```
 
 12. In the `test.js` file in the `test/` directory import the Mocha and Chai testing libraries
 
-    ```import Mocha from 'mocha'
-       import { chai } from 'chai'```
+    ```import Mocha from 'mocha'```
+
+    ```import { chai } from 'chai'```
 
 
