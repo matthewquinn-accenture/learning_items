@@ -4,7 +4,7 @@ The following is **one** of many ways to set up a JavaScript testing environment
 
 **This tutorial assumes the following**
 
-a. Unit test experience
+a. JavaScript experience
 
 b. Command line experience
 
@@ -12,8 +12,7 @@ b. The latest version of `npm` is installed
 
 c. The latest version of `yarn` is installed
 
-
-***Each step will be completed from the commmand line***
+**Each step will be completed from the commmand line**
 
 ## Steps to setup a JavaScript testing environment
 
@@ -55,7 +54,7 @@ c. The latest version of `yarn` is installed
 
 9. Initialize npm to manage project dependencies and settings:
 
-    ***NOTE*** A promt will appear, hit `enter` until complete:
+    **NOTE** A promt will appear, hit `enter` until complete:
 
     `npm init`
 
@@ -65,7 +64,7 @@ c. The latest version of `yarn` is installed
 
 11. Install the babel packages so `es6` can be used:
 
-    `npm install babel-cli babel-core babel-polyfill babel-preset-es2015 babel-register`
+    `npm install babel-cli babel-core babel-polyfill babel-preset-env babel-register`
 
 12. Configure yarn:
 
@@ -102,10 +101,10 @@ c. The latest version of `yarn` is installed
     ```
         import Mocha from 'mocha'
 
-        import { chai } from 'chai'
+        import { expect } from 'chai'
     ```
 
-18. In the same file, write a canary test:
+18. In the same file, write a canary test. The purpose of the canary test is to make sure the testing environment has configured correctly:
 
     ```
     describe("Canary Test", () => {
