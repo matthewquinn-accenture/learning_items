@@ -118,3 +118,5 @@ c. The latest version of `yarn` is installed
 20. Run the test:
 
     ```npm test```
+
+**If the test is passing, congraduations, the JavaScript testing environment is configured correctly!**
