@@ -16,13 +16,13 @@ The following process will be done from the command line.
 
 3. Create a `.babelrc` file inside of the base directory that contains the presets which allow us to utilize es6.
 
-    ```code my_directory_name/.babelrc```
+    ```touch my_directory_name/.babelrc```
 
 4. Create an `index.js` and `test.js` file inside of the respective sub-directory. The `index.js` file is where application code is written. The `test.js` is where the test code is written.
 
-    ```code my_directory_name/src/index.js```
+    ```touch my_directory_name/src/index.js```
 
-    ```code my_directory_name/test/test.js```
+    ```touch my_directory_name/test/test.js```
 
 5. Enter the base directory
 
@@ -43,3 +43,20 @@ The following process will be done from the command line.
 9. Install yarn
 
    ```yarn install```
+
+10. Open the .babelrc file
+
+    ```code .babelrc```
+
+11. Type in the presets to configure es6 syntax
+
+    ```{
+        "presets": ["es2015"]
+                }```
+
+12. In the `test.js` file in the `test/` directory import the Mocha and Chai testing libraries
+
+    ```import Mocha from 'mocha'
+       import { chai } from 'chai'```
+
+
