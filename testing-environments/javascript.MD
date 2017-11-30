@@ -54,7 +54,7 @@ c. The latest version of `yarn` is installed
 
 9. Initialize npm to manage project dependencies and settings:
 
-    **NOTE** A promt will appear, hit `enter` until complete:
+    **Note:** A promt will appear, hit `enter` until complete:
 
     `npm init`
 
@@ -119,4 +119,4 @@ c. The latest version of `yarn` is installed
 
     ```npm test```
 
-**If the test is passing, congraduations, the JavaScript testing environment is configured correctly!**
+    **Note:** If the test is passing, congraduations, the JavaScript testing environment is configured correctly!
